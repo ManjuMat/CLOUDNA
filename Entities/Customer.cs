@@ -14,6 +14,8 @@ namespace CLOUDNA.Entities
         public string Town { get; set; }
         public string PostCode { get; set; }
 
+        public List<Order> Orders { get; set; } = new List<Order>();
+
     }
 }
 

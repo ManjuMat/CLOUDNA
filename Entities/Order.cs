@@ -9,7 +9,7 @@ namespace CLOUDNA.Entities
         public DateTime DeliveryExpectedDate { get; set; }
         public bool ContainsGift { get; set; }
         public List<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
-
+                
     }
 }
 
